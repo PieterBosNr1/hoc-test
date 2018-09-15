@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.dog {
+  border: 1px solid red;
+}
+
+.robot {
+  border: 2px goldenrod dashed;
+}
