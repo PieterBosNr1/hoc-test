@@ -6,12 +6,14 @@ import HOC from "./HOC";
 import "./styles.css";
 
 const HDog = HOC(Dog);
-
+const HRobot = HOC(Robot);
 function App() {
   return (
     <div className="App">
       <Dog />
       <Robot />
+      <HDog />
+      <HRobot/>
 
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!!</h2>

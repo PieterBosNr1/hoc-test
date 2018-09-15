@@ -1,7 +1,11 @@
 import React from "react";
 
-function Dog() {
-  return <div className="dog">woef</div>;
+function Dog(props) {
+  return (
+    <div className="dog" onClick={props.update}>
+      woef {props.count}
+    </div>
+  );
 }
 
 export default Dog;

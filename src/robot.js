@@ -2,7 +2,11 @@ import React from "react";
 
 class Robot extends React.Component {
   render() {
-    return <div className="robot">beep</div>;
+    return (
+      <div onMouseMove={this.props.update} className="robot">
+        {this.props.count} beep
+      </div>
+    );
   }
 }
 
